@@ -14,7 +14,6 @@ html, body {
 
 .content {
     float: left;
-    height: 22%;
 }
 
 .logo_img {
@@ -38,7 +37,6 @@ html, body {
     flex-direction: column;
     display: flex;
     width: 100%;
-    height: 68px;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -97,14 +95,117 @@ span.select_list {
     background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
 }
 
-.content2 {
+.header {
+    display: flex;
     float: right;
     width: calc(100% - 220px);
-    height: 100vh;
+    height: 68px;
 }
 
 .text_wrapper_title {
+    padding: 4px;
+    text-align: left;
+    padding: 10px 2% 4px 2%;
+    float: left;
     width: 100%;
-    height: 68px;
+    height: auto;
     background-color: #FDF1EB;
 }
+
+.text {
+    text-align: left;
+    float: left;
+    width: 60%;
+
+}
+
+.text p {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+
+.text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+
+
+color: #725C5C;
+}
+.saudacao_right {
+    text-align: right;
+    float: right;
+    width: 40%;
+}
+.perfil {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-left:10px ;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+.notificacao{
+    float: right;
+    width: 12px;
+    height: 12px;
+    background-color: teal;
+    border-radius: 50%;
+}
+.email {
+    float: right;
+}
+
+
+.bemvindo {
+float: right;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+}
+
+
+.outhers {
+    position: relative;
+    margin-right: 20px;
+    float: right;
+    width: 97px;
+    height: 34px;
+    background-color: #FDF1EB;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    padding:0px;
+}
+.outhers img {
+    position: absolute;
+    left:5px;
+    margin-top: 6px;
+}
+#select_pt {
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width:70%;
+    height: 34px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    background:  url('../imagens/dropdown.png') 80% 50% no-repeat;
+    
+}
+
+
